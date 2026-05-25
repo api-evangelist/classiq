@@ -1,0 +1,100 @@
+aid: classiq
+name: Classiq
+description: >-
+  Classiq Technologies is a Tel Aviv, Israel headquartered enterprise quantum
+  software company founded in 2020 by Nir Minerbi (CEO), Amir Naveh (CPO), and
+  Dr. Yehuda Naveh (CTO), positioning itself as a high-level quantum algorithm
+  design platform that lets organizations build, scale, and deploy quantum
+  algorithms across any hardware or simulator without writing low-level gate
+  code. Its flagship offering centers on Qmod, an intuitive quantum modeling
+  language, and a hardware-aware synthesis engine that compiles functional
+  quantum models into optimized circuits with constraint-driven optimization,
+  transpilation, and execution session management across cloud quantum
+  providers including AWS Braket, Azure Quantum, GCP, IBM Quantum, IonQ, OQC,
+  Alice and Bob, and C12. The platform is delivered through the Classiq Studio
+  web IDE at platform.classiq.io, a public Python SDK (`pip install classiq`)
+  currently at version 1.14.0 covering synthesis, execution, analysis, and
+  application libraries for chemistry (QSP), finance (IQAE), and quantum
+  machine learning (QSVM, QML), plus an AI-assisted natural language interface
+  for algorithm design. Classiq publishes the largest open quantum algorithm
+  library on GitHub at github.com/Classiq/classiq-library (2,000+ stars,
+  Jupyter Notebook, MIT license) with reference implementations across
+  optimization, linear solvers, quantum machine learning, chemistry, finance,
+  logistics, cybersecurity, and physical systems. Customers include Microsoft,
+  AWS, NVIDIA, HSBC, Citibank, BMW, and Rolls-Royce; the company is SOC 2 and
+  GDPR compliant. Classiq has raised over $200M including a $110M Series C in
+  May 2025 with backers such as AMD Ventures, Qualcomm Ventures, IonQ, Bank
+  Leumi, Mirae Asset Capital, and SoftBank. Classiq's developer surface is the
+  Python SDK and Qmod language — there is no public REST API or OpenAPI
+  specification; the Mintlify-hosted `docs.classiq.io/api-reference/openapi.json`
+  endpoint currently returns the default Mintlify Plant Store placeholder
+  rather than a real API contract.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Quantum Computing
+  - Quantum Software
+  - Quantum Algorithm Design
+  - Quantum Programming Language
+  - Qmod
+  - Quantum Synthesis
+  - Quantum Circuits
+  - Hardware Agnostic
+  - Quantum Machine Learning
+  - Quantum Chemistry
+  - Quantum Finance
+  - Quantum Optimization
+  - Enterprise Quantum
+  - Python SDK
+  - AI Assisted Development
+url: https://raw.githubusercontent.com/api-evangelist/classiq/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.classiq.io
+  - type: Platform
+    url: https://platform.classiq.io
+  - type: Documentation
+    url: https://docs.classiq.io
+  - type: GettingStarted
+    url: https://docs.classiq.io/getting-started
+  - type: SDKReference
+    url: https://docs.classiq.io/sdk-reference
+  - type: QmodReference
+    url: https://docs.classiq.io/qmod-reference
+  - type: UserGuide
+    url: https://docs.classiq.io/user-guide
+  - type: Tutorials
+    url: https://docs.classiq.io/tutorials
+  - type: Algorithms
+    url: https://docs.classiq.io/algorithms
+  - type: Applications
+    url: https://docs.classiq.io/applications
+  - type: ReleaseNotes
+    url: https://docs.classiq.io/release-notes
+  - type: PythonSDK
+    url: https://pypi.org/project/classiq/
+  - type: GitHub
+    url: https://github.com/Classiq
+  - type: Library
+    url: https://github.com/Classiq/classiq-library
+  - type: Insights
+    url: https://www.classiq.io/insights
+  - type: Slack
+    url: https://classiq-community.slack.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/classiq
+  - type: Twitter
+    url: https://twitter.com/Classiq_
+  - type: YouTube
+    url: https://www.youtube.com/@classiqtech
+  - type: Contact
+    url: https://www.classiq.io/contact
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
