@@ -55,6 +55,9 @@ accessModel:
 position: Producing
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/classiq.png
+x-docs-platform: mintlify
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-21
 tags:
   - Quantum Computing
   - Quantum Software
