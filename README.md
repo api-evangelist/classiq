@@ -1,4 +1,4 @@
-# classiq
+# Classiq
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Classiq — high-level quantum algorithm design platform (Qmod language, Python SDK, hardware-agnostic synthesis)
+Classiq Technologies is a Tel Aviv, Israel headquartered enterprise quantum software company founded in 2020 by Nir Minerbi (CEO), Amir Naveh (CPO), and Dr. Yehuda Naveh (CTO), positioning itself as a high-level quantum algorithm design platform that lets organizations build, scale, and deploy quantum algorithms across any hardware or simulator without writing low-level gate code. Its flagship offering centers on Qmod, an intuitive quantum modeling language, and a hardware-aware synthesis engine that compiles functional quantum models into optimized circuits with constraint-driven optimization, transpilation, and execution session management across cloud quantum providers including AWS Braket, Azure Quantum, GCP, IBM Quantum, IonQ, OQC, Alice and Bob, and C12. The platform is delivered through the Classiq Studio web IDE at platform.classiq.io, a public Python SDK (`pip install classiq`) currently at version 1.14.0 covering synthesis, execution, analysis, and application libraries for chemistry (QSP), finance (IQAE), and quantum machine learning (QSVM, QML), plus an AI-assisted natural language interface for algorithm design. Classiq publishes the largest open quantum algorithm library on GitHub at github.com/Classiq/classiq-library (2,000+ stars, Jupyter Notebook, MIT license) with reference implementations across optimization, linear solvers, quantum machine learning, chemistry, finance, logistics, cybersecurity, and physical systems. Customers include Microsoft, AWS, NVIDIA, HSBC, Citibank, BMW, and Rolls-Royce; the company is SOC 2 and GDPR compliant. Classiq has raised over $200M including a $110M Series C in May 2025 with backers such as AMD Ventures, Qualcomm Ventures, IonQ, Bank Leumi, Mirae Asset Capital, and SoftBank. Classiq's developer surface is the Python SDK and Qmod language — there is no public REST API or OpenAPI specification; the Mintlify-hosted `docs.classiq.io/api-reference/openapi.json` endpoint currently returns the default Mintlify Plant Store placeholder rather than a real API contract.
+
+**Areas:** Quantum Computing · Quantum Software · Quantum Algorithm Design · Quantum Programming Language · Qmod · Quantum Synthesis · Quantum Circuits · Hardware Agnostic · Quantum Machine Learning · Quantum Chemistry · Quantum Finance · Quantum Optimization
+
+## Classiq on APIs.io
+
+Everything profiled for Classiq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/classiq/](https://apis.io/providers/classiq/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Classiq Domain Security](https://apis.io/security/classiq/classiq-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.classiq.io)
+- [Documentation](https://docs.classiq.io)
+- [Getting started](https://docs.classiq.io/getting-started)
+- [Blog](https://www.classiq.io/blog)
+
+## API Evangelist rating
+
+**Kin Score 11.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/classiq/](https://apis.io/providers/classiq/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Classiq: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/classiq/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
